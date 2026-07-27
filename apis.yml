@@ -1,8 +1,16 @@
 aid: humans-and
 name: Humans&
-description: Humans& is a company surfaced as a portfolio company of bloomberg-beta, forerunner-ventures,
-  gv, sv-angel and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: Humans& (humansand.ai) is a human-centric frontier AI lab, publicly announced January
+  20, 2026, that aims to reimagine artificial intelligence around people and their relationships with
+  one another rather than autonomy alone. The team focuses on long-horizon and multi-agent reinforcement
+  learning, memory, and user understanding, tightly integrating scientific research with product
+  development. Its founding team has led major efforts across frontier industry and academic labs
+  including xAI, Anthropic, Google DeepMind, OpenAI, Meta, Reflection, AI2, Stanford, and MIT. The seed
+  round is led by SV Angel and co-founder Georges Harik, with investors including NVIDIA, Jeff Bezos, GV
+  (Google Ventures), Emerson Collective, Forerunner, S32, DCVC, Bloomberg Beta, and many others. As of
+  this profile the company is in a pre-product announcement phase with no public developer API, SDKs, or
+  developer portal; it publishes a research blog and intends to contribute back to open source and
+  academic research.
 url: https://raw.githubusercontent.com/api-evangelist/humans-and/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,11 +21,29 @@ x-backed-by:
 - sv-angel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://humansand.ai/icon.jpg
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Frontier AI
+- Research Lab
+- Multi-Agent Systems
+- Reinforcement Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +51,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/humans-and-domain-security.yml
+- type: LLMsTxt
+  url: llms/humans-and-llms.txt
 - type: Website
   url: https://humansand.ai/
+- type: Blog
+  url: https://humansand.ai/blog/nvfp4-rl
+- type: TermsOfService
+  url: https://humansand.ai/
+- type: PrivacyPolicy
+  url: https://humansand.ai/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
